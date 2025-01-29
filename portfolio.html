@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png') no-repeat center center/cover;
+            color: white;
+            overflow-x: hidden;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 40px 20px; /* Increased padding to move it lower */
+            font-size: 2.5em;
+            font-weight: 700;
+            animation: slideDown 1s ease-in-out;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            margin-top: 20px; /* Added margin to push it down */
+        }
+
+        nav {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #ff6f61;
+            border-radius: 5px;
+        }
+
+        .container {
+            padding: 100px 20px 20px; /* Adjusted padding for better spacing */
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 25px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <header>
+        My Portfolio
+    </header>
+    <div class="container">
+        <div id="about" class="card">
+            <h2>About Me</h2>
+            <img src="srinithi.jpg" alt="Profile Picture">
+            <p>Hello! I'm <b>Srinithi M</b>, a 2nd-year Electronics and Communication Engineering student passionate about technology, web development, AI & IoT.</p>
+            <p><b>Skills:</b> HTML, CSS, JavaScript, Python, C++</p>
+            <p><b>Interests:</b> Web Development, IoT, Electronics</p>
+        </div>
+
+        <div id="projects" class="card">
+            <h2>Projects</h2>
+            <img src="project.jpg" alt="Project Image">
+            <p>🚦 <b>Smart Traffic Management System</b> - AI-based traffic optimization.</p>
+            <p>🌦 <b>Automated Weather Monitoring</b> - IoT-based real-time weather tracking.</p>
+            <p>🏠 <b>Home Automation</b> - Remote control of home appliances.</p>
+        </div>
+
+        <div id="education" class="card">
+            <h2>Education</h2>
+            <img src="clg.jpg" alt="College Image">
+            <p>B.E. in Electronics and Communication Engineering</p>
+            <p><b>Sri Krishna College of Engineering and Technology </b> | Expected Graduation: 2027</p>
+        </div>
+
+        <div id="certifications" class="card">
+            <h2>Certifications</h2>
+            <div>
+                <img src="certificate.jpg" alt="Certificate Image">
+                <img src="certificate1.jpg" alt="Certificate Image">
+            </div>
+            <p>📝 Ideathon - SKCET</p>
+            <p>💻 Java & DSA course completion - Infosys Springboard</p>
+            <p>🔌 Soft Skills & Ethics in Engineering - NPTEL</p>
+        </div>
+
+        <div id="contact" class="card">
+            <h2>Contact Me</h2>
+            <p>📞 Phone: <a href="tel:8675112286">8675112286</a></p>
+            <p>📧 Email: <a href="mailto:srinithim254@gmail.com">srinithim254@gmail.com</a></p>
+            <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/srinithi-m-ab85a732a" target="_blank">LinkedIn Profile</a></p>
+            <p>👨‍💻 GitHub: <a href="https://github.com/srinithim25" target="_blank">GitHub Profile</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    
+}
+.container div{
+    background-color: aqua;
+    border: 4px solid plum;
+    height: 140px;
+    width: 100vw;
+}
